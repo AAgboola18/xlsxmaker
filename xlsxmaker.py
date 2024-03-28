@@ -12,5 +12,5 @@ for filepath in filepaths:
 
     Filename = Path(filepath).stem
 
-    pdf.set_font(family="Helvetica",style="B", size=16)
+    pdf.set_font(family="Helvetica", style="B", size=16)
     pdf.cell(w=0, h=12, txt="Invoice number: ")
